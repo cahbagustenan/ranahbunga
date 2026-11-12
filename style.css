@@ -83,8 +83,8 @@ main {
     border-radius: 14px;
     border: 1px solid rgba(197, 179, 130, 0.25);
     background-image: 
-        linear-gradient(rgba(26, 28, 25, 0.86), rgba(26, 28, 25, 0.93)),
-        url('Img/Profile%20Bg/ranahbunga_2021-03-10_14-36-24_2526160201676854284_46594457904.jpg');
+        linear-gradient(rgba(26, 28, 25, 0.88), rgba(26, 28, 25, 0.94)),
+        url('Img/logo-ranahbunga.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
