@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranah Bunga (@ranahbunga) | Katalog & Custom Buket Bunga Jogja - Bantul</title>
+    <!-- Memanggil ikon FontAwesome untuk WhatsApp, Instagram, dan fitur bisnis -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Bagian Atas / Navigasi -->
+    <header>
+        <div class="nav-kiri">
+            <a href="#profil">PROFIL</a>
+            <a href="#katalog">KATALOG</a>
+            <a href="#order">CUSTOM ORDER</a>
+        </div>
+        <a href="#" class="logo">ranahbunga</a>
+        <div class="nav-kanan">
+            <a href="#layanan">LAYANAN</a>
+            <a href="#lokasi">LOKASI</a>
+            <a href="https://www.instagram.com/ranahbunga/" target="_blank"><i class="fab fa-instagram"></i> @RANAHBUNGA</a>
+            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%2C%20saya%20ingin%20bertanya%20tentang%20pemesanan%20buket." target="_blank" class="nav-cta"><i class="fab fa-whatsapp"></i> CHAT WA</a>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Bagian Profil Bisnis / Hero Banner -->
+        <section id="profil" class="profil-bisnis">
+            <div class="profil-teks">
+                <p class="sub-judul">FLORIST & GIFT STUDIO • BANTUL, YOGYAKARTA</p>
+                <h2 class="judul-profil">Rangkaian Buket Cantik untuk Setiap Momen Spesialmu</h2>
+                <p class="deskripsi-profil">
+                    <strong>Ranah Bunga Florist (<code>@ranahbunga</code>)</strong> hadir di Yogyakarta & Bantul untuk membantu Anda mengekspresikan perhatian melalui rangkaian buket bunga <em>artificial</em> pilihan, buket <em>snack</em>, hingga buket wisuda <em>custom</em> yang dirangkai secara <em>handmade</em> dengan harga ramah di kantong.
+                </p>
+                <div class="aksi-profil">
+                    <a href="#katalog" class="tombol-utama">LIHAT KATALOG</a>
+                    <a href="https://www.instagram.com/ranahbunga/" target="_blank" class="tombol-sekunder"><i class="fab fa-instagram"></i> KUNJUNGI @RANAHBUNGA</a>
+                </div>
+            </div>
+
+            <div class="keunggulan-grid" id="layanan">
+                <div class="kartu-keunggulan">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Artificial Premium & Awet</h3>
+                    <p>Bunga artificial berkualitas tinggi yang tampak anggun dan tidak layu untuk kenang-kenangan jangka panjang.</p>
+                </div>
+                <div class="kartu-keunggulan">
+                    <i class="fas fa-sliders-h"></i>
+                    <h3>Bisa Request Sesuai Budget</h3>
+                    <p>Bebas pilih kombinasi warna wrapping, jenis bunga, isian snack, maupun menyesuaikan budget pelajar/mahasiswa.</p>
+                </div>
+                <div class="kartu-keunggulan">
+                    <i class="fas fa-clock"></i>
+                    <h3>Buka Setiap Hari</h3>
+                    <p>Melayani pemesanan Senin–Minggu (08.00–19.00 WIB) untuk area Bantul, Yogyakarta, dan sekitarnya.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Katalog Produk -->
+        <section id="katalog" class="produk-unggulan">
+            <p class="sub-judul">KOLEKSI PILIHAN @RANAHBUNGA</p>
+            <h2>Katalog Buket</h2>
+            <p class="sub-deskripsi-katalog">Pilih salah satu model di bawah untuk menyesuaikan ukuran & tambahan, atau langsung klik tombol WhatsApp untuk memesan.</p>
+            
+            <div class="grid-produk">
+                <!-- Produk 1 -->
+                <div class="kartu-produk" data-nama="Pastel Artificial Rose Bouquet" data-harga="85000" data-tipe="Buket Bunga Artificial" data-gambar="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=900&q=85" data-deskripsi="Rangkaian mawar artificial bernuansa pastel lembut dengan balutan kertas cellophane premium ala Korea. Sangat manis untuk hadiah sidang, wisuda, dan ulang tahun.">
+                    <div class="tempat-gambar gambar-grid">
+                        <span class="badge-produk">BEST SELLER</span>
+                        <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=900&q=85" alt="Pastel Artificial Rose Bouquet - Ranah Bunga" loading="lazy">
+                    </div>
+                    <div class="info-kartu">
+                        <h3>Pastel Artificial Rose</h3>
+                        <p class="harga-katalog">MULAI DARI RP 85.000</p>
+                        <p class="ket-katalog">Mawar artificial pastel • Korean cellophane wrap</p>
+                        <div class="tombol-kartu-grup">
+                            <button type="button" class="tombol-pilih-katalog" onclick="pilihProdukKatalog(this)">CUSTOM & DETAIL</button>
+                            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20tertarik%20memesan%20*Pastel%20Artificial%20Rose%20Bouquet*%20(Mulai%20Rp%2085.000)." target="_blank" class="tombol-wa-katalog"><i class="fab fa-whatsapp"></i> ORDER WA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="kartu-produk" data-nama="Graduation Artificial & Bear Bouquet" data-harga="95000" data-tipe="Buket Wisuda" data-gambar="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=900&q=85" data-deskripsi="Buket spesial kelulusan dengan perpaduan bunga artificial pilihan dan boneka toga wisuda yang menggemaskan. Sudah termasuk kartu ucapan selamat wisuda.">
+                    <div class="tempat-gambar gambar-grid">
+                        <span class="badge-produk">SPESIAL WISUDA</span>
+                        <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=900&q=85" alt="Graduation Artificial Bouquet - Ranah Bunga" loading="lazy">
+                    </div>
+                    <div class="info-kartu">
+                        <h3>Graduation Edition Bouquet</h3>
+                        <p class="harga-katalog">MULAI DARI RP 95.000</p>
+                        <p class="ket-katalog">Bunga artificial + Boneka toga • Cocok untuk wisuda</p>
+                        <div class="tombol-kartu-grup">
+                            <button type="button" class="tombol-pilih-katalog" onclick="pilihProdukKatalog(this)">CUSTOM & DETAIL</button>
+                            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20tertarik%20memesan%20*Graduation%20Edition%20Bouquet*%20(Mulai%20Rp%2095.000)." target="_blank" class="tombol-wa-katalog"><i class="fab fa-whatsapp"></i> ORDER WA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="kartu-produk" data-nama="Sunflower Sunshine Bouquet" data-harga="65000" data-tipe="Buket Bunga Artificial" data-gambar="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=900&q=85" data-deskripsi="Buket bunga matahari artificial yang cerah dan hangat, dipadukan dengan daun eucalyptus serta baby breath sintetis. Melambangkan semangat dan kebahagiaan.">
+                    <div class="tempat-gambar gambar-grid">
+                        <span class="badge-produk">FAVORIT</span>
+                        <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=900&q=85" alt="Sunflower Sunshine Bouquet - Ranah Bunga" loading="lazy">
+                    </div>
+                    <div class="info-kartu">
+                        <h3>Sunflower Sunshine</h3>
+                        <p class="harga-katalog">MULAI DARI RP 65.000</p>
+                        <p class="ket-katalog">Bunga matahari artificial • Nuansa hangat & ceria</p>
+                        <div class="tombol-kartu-grup">
+                            <button type="button" class="tombol-pilih-katalog" onclick="pilihProdukKatalog(this)">CUSTOM & DETAIL</button>
+                            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20tertarik%20memesan%20*Sunflower%20Sunshine%20Bouquet*%20(Mulai%20Rp%2065.000)." target="_blank" class="tombol-wa-katalog"><i class="fab fa-whatsapp"></i> ORDER WA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 4 -->
+                <div class="kartu-produk" data-nama="Monochrome Cream Elegance" data-harga="110000" data-tipe="Buket Bunga Artificial" data-gambar="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=900&q=85" data-deskripsi="Rangkaian bunga artificial bernuansa netral krem, putih, dan sentuhan wrapping gelap/monokrom yang elegan. Memberikan kesan eksklusif dan dewasa.">
+                    <div class="tempat-gambar gambar-grid">
+                        <span class="badge-produk">ELEGANT SERIES</span>
+                        <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=900&q=85" alt="Monochrome Cream Elegance - Ranah Bunga" loading="lazy">
+                    </div>
+                    <div class="info-kartu">
+                        <h3>Monochrome Cream Elegance</h3>
+                        <p class="harga-katalog">MULAI DARI RP 110.000</p>
+                        <p class="ket-katalog">Nuansa netral & elegan • Wrapping eksklusif</p>
+                        <div class="tombol-kartu-grup">
+                            <button type="button" class="tombol-pilih-katalog" onclick="pilihProdukKatalog(this)">CUSTOM & DETAIL</button>
+                            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20tertarik%20memesan%20*Monochrome%20Cream%20Elegance*%20(Mulai%20Rp%20110.000)." target="_blank" class="tombol-wa-katalog"><i class="fab fa-whatsapp"></i> ORDER WA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 5 -->
+                <div class="kartu-produk" data-nama="Sweet & Savory Snack Bouquet" data-harga="45000" data-tipe="Buket Snack" data-gambar="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=85" data-deskripsi="Buket snack favorit yang disusun rapi dan estetik. Jenis snack serta warna kertas wrapping dapat disesuaikan dengan kesukaan penerima hadiah.">
+                    <div class="tempat-gambar gambar-grid">
+                        <span class="badge-produk">HEMAT & POPULER</span>
+                        <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=85" alt="Sweet Snack Bouquet - Ranah Bunga" loading="lazy">
+                    </div>
+                    <div class="info-kartu">
+                        <h3>Sweet Snack Bouquet</h3>
+                        <p class="harga-katalog">MULAI DARI RP 45.000</p>
+                        <p class="ket-katalog">Isian snack bisa request • Cocok untuk sidang & ultah</p>
+                        <div class="tombol-kartu-grup">
+                            <button type="button" class="tombol-pilih-katalog" onclick="pilihProdukKatalog(this)">CUSTOM & DETAIL</button>
+                            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20tertarik%20memesan%20*Sweet%20Snack%20Bouquet*%20(Mulai%20Rp%2045.000)." target="_blank" class="tombol-wa-katalog"><i class="fab fa-whatsapp"></i> ORDER WA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 6 -->
+                <div class="kartu-produk" data-nama="Custom Mix Flower & Gift Bouquet" data-harga="75000" data-tipe="Mix Bouquet" data-gambar="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=900&q=85" data-deskripsi="Ingin kombinasi bunga artificial dengan cokelat, polaroid, uang, atau request sesuai budget sendiri? Konsultasikan langsung desain buket impianmu bersama Ranah Bunga.">
+                    <div class="tempat-gambar gambar-grid">
+                        <span class="badge-produk">CUSTOM REQUEST</span>
+                        <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=900&q=85" alt="Custom Mix Flower Bouquet - Ranah Bunga" loading="lazy">
+                    </div>
+                    <div class="info-kartu">
+                        <h3>Custom Budget Bouquet</h3>
+                        <p class="harga-katalog">MULAI DARI RP 50.000</p>
+                        <p class="ket-katalog">Bebas atur budget, warna wrapping, & isian buket</p>
+                        <div class="tombol-kartu-grup">
+                            <button type="button" class="tombol-pilih-katalog" onclick="pilihProdukKatalog(this)">CUSTOM & DETAIL</button>
+                            <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20ingin%20konsultasi%20pemesanan%20*Custom%20Budget%20Bouquet*." target="_blank" class="tombol-wa-katalog"><i class="fab fa-whatsapp"></i> ORDER WA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Detail Produk & Form Order Langsung ke WhatsApp -->
+        <section id="order" class="detail-produk">
+            <div class="kolom-gambar">
+                <div class="tempat-gambar gambar-utama">
+                    <img id="foto-produk-utama" src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=900&q=85" alt="Buket Pilihan Ranah Bunga">
+                </div>
+            </div>
+            
+            <div class="kolom-info">
+                <p class="sub-judul-order">CUSTOM ORDER & KALKULATOR HARGA</p>
+                <h1 id="judul-produk-utama">Pastel Artificial Rose Bouquet</h1>
+                <p class="harga" id="harga-produk-utama">Rp 85.000</p>
+                <p class="deskripsi" id="deskripsi-produk-utama">Rangkaian mawar artificial bernuansa pastel lembut dengan balutan kertas cellophane premium ala Korea. Sangat manis untuk hadiah sidang, wisuda, dan ulang tahun.</p>
+                
+                <!-- Pilihan Ukuran -->
+                <div class="pilihan">
+                    <p class="label-pilihan">1. PILIH UKURAN (SIZE)</p>
+                    <div class="opsi" id="opsi-size">
+                        <span class="opsi-item" data-size="Small (S)" data-selisih="-20000">S</span>
+                        <span class="opsi-item aktif" data-size="Medium (M)" data-selisih="0">M (Standar)</span>
+                        <span class="opsi-item" data-size="Large (L)" data-selisih="35000">L (+35k)</span>
+                        <span class="opsi-item" data-size="Extra Large (XL)" data-selisih="75000">XL (+75k)</span>
+                        <span class="opsi-item" data-size="Custom Sesuai Budget" data-selisih="0">Custom Budget</span>
+                    </div>
+                </div>
+
+                <!-- Pilihan Tipe Rangkaian -->
+                <div class="pilihan">
+                    <p class="label-pilihan">2. TIPE BUKET</p>
+                    <div class="opsi" id="opsi-tipe">
+                        <span class="opsi-item aktif" data-tipe="Buket Bunga Artificial">Buket Bunga Artificial</span>
+                        <span class="opsi-item" data-tipe="Buket Wisuda">Buket Wisuda</span>
+                        <span class="opsi-item" data-tipe="Buket Snack">Buket Snack</span>
+                        <span class="opsi-item" data-tipe="Mix Bouquet">Mix Bouquet</span>
+                    </div>
+                </div>
+
+                <!-- Pilihan Warna Wrapping -->
+                <div class="pilihan">
+                    <p class="label-pilihan">3. WARNA KERTAS WRAPPING</p>
+                    <div class="opsi" id="opsi-warna">
+                        <span class="opsi-item aktif" data-warna="Cream / Neutral">Cream / Neutral</span>
+                        <span class="opsi-item" data-warna="Black Gold">Black Gold</span>
+                        <span class="opsi-item" data-warna="Pastel Pink">Pastel Pink</span>
+                        <span class="opsi-item" data-warna="Sage Green">Sage Green</span>
+                        <span class="opsi-item" data-warna="Request Warna Lain">Request Warna</span>
+                    </div>
+                </div>
+
+                <!-- Pilihan Add-on (Bisa pilih lebih dari satu) -->
+                <div class="tambahan">
+                    <p class="label-pilihan">4. TAMBAHAN / ADD-ON (KLIK UNTUK MEMILIH)</p>
+                    <div class="grid-tambahan" id="opsi-addon">
+                        <div class="item-tambahan" data-addon="Boneka Wisuda" data-harga="25000">
+                            <div class="foto-tambahan"><i class="fas fa-user-graduate"></i></div>
+                            <p>Boneka Wisuda<br><strong>(+Rp 25k)</strong></p>
+                        </div>
+                        <div class="item-tambahan" data-addon="Cokelat SilverQueen" data-harga="20000">
+                            <div class="foto-tambahan"><i class="fas fa-cookie-bite"></i></div>
+                            <p>Cokelat<br><strong>(+Rp 20k)</strong></p>
+                        </div>
+                        <div class="item-tambahan" data-addon="Lampu LED Warm" data-harga="10000">
+                            <div class="foto-tambahan"><i class="fas fa-lightbulb"></i></div>
+                            <p>Lampu LED<br><strong>(+Rp 10k)</strong></p>
+                        </div>
+                        <div class="item-tambahan aktif" data-addon="Kartu Ucapan Custom" data-harga="0">
+                            <div class="foto-tambahan"><i class="fas fa-envelope-open-text"></i></div>
+                            <p>Kartu Ucapan<br><strong>(Gratis)</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Catatan / Ucapan -->
+                <div class="input-catatan">
+                    <p class="label-pilihan">5. CATATAN / ISI KARTU UCAPAN & TANGGAL AMBIL/KIRIM (OPSIONAL)</p>
+                    <input type="text" id="catatan-order" placeholder="Contoh: Untuk wisuda tgl 15 Nov, tulisan kartu: Happy Graduation Put!">
+                </div>
+
+                <button type="button" class="tombol-beli" id="tombol-order-wa" onclick="kirimOrderWhatsApp()">
+                    <i class="fab fa-whatsapp"></i> PESAN SEKARANG VIA WHATSAPP
+                </button>
+                <p class="info-order-wa">*Klik tombol di atas akan otomatis membuka chat WhatsApp Admin <strong>@ranahbunga</strong> (+62 895-4036-59995) beserta rincian pesanan Anda.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="lokasi">
+        <div class="footer-container">
+            <!-- Kolom 1: Profil & Kontak -->
+            <div class="footer-kolom">
+                <h2 class="footer-logo">ranahbunga</h2>
+                <p class="footer-deskripsi">Ranah Bunga Florist menyediakan berbagai macam buket bunga artificial, buket snack, dan buket custom terjangkau untuk menyempurnakan hari spesialmu di Jogja & Bantul.</p>
+                <div class="footer-kontak">
+                    <a href="https://www.instagram.com/ranahbunga/" target="_blank"><i class="fab fa-instagram"></i> @ranahbunga</a>
+                    <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%2C%20saya%20ingin%20memesan%20buket." target="_blank"><i class="fab fa-whatsapp"></i> +62 895-4036-59995</a>
+                </div>
+            </div>
+
+            <!-- Kolom 2: Layanan Kami -->
+            <div class="footer-kolom">
+                <h3 class="footer-judul">LAYANAN KAMI</h3>
+                <ul class="footer-list">
+                    <li>Buket Bunga Artificial (Awet & Estetik)</li>
+                    <li>Buket Snack & Hadiah Wisuda</li>
+                    <li>Buket Custom Sesuai Budget</li>
+                    <li>Buka Setiap Hari: 08.00 – 19.00 WIB</li>
+                    <li>Area Layanan: Bantul & D.I. Yogyakarta</li>
+                </ul>
+            </div>
+
+            <!-- Kolom 3: Lokasi & Map Interaktif -->
+            <div class="footer-kolom">
+                <h3 class="footer-judul">LOKASI WORKSHOP</h3>
+                <p class="footer-alamat">Jl. Dr. Wahidin Sudiro Husodo, Kadibeso, Sabdodadi, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55715</p>
+                <!-- Iframe Google Maps Interaktif -->
+                <iframe class="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.054398048354!2d110.3375!3d-7.8895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7b008890000001%3A0x1!2sJl.%20Dr.%20Wahidin%20Sudiro%20Husodo%2C%20Sabdodadi%2C%20Kec.%20Bantul%2C%20Kabupaten%20Bantul%2C%20Daerah%20Istimewa%20Yogyakarta%2055715!5e0!3m2!1sid!2sid!4v1698765432100!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-bawah">
+            <p>&copy; 2026 Ranah Bunga Florist (@ranahbunga) — Bantul, Yogyakarta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/62895403659995?text=Halo%20Admin%20Ranah%20Bunga%20(%40ranahbunga)%2C%20saya%20ingin%20konsultasi%20pemesanan%20buket." target="_blank" class="floating-wa" title="Chat WhatsApp Ranah Bunga">
+        <i class="fab fa-whatsapp"></i>
+        <span>Order via WA</span>
+    </a>
+
+    <!-- Script Interaktif untuk Katalog, Kalkulator Harga, & Direct Order ke WhatsApp -->
+    <script>
+        const NOMOR_WA = "62895403659995";
+        let hargaDasarProduk = 85000;
+
+        function formatRupiah(angka) {
+            return "Rp " + angka.toLocaleString("id-ID");
+        }
+
+        function hitungTotalHarga() {
+            const sizeAktif = document.querySelector("#opsi-size .opsi-item.aktif");
+            const selisihSize = sizeAktif ? parseInt(sizeAktif.getAttribute("data-selisih") || "0", 10) : 0;
+
+            let totalAddon = 0;
+            document.querySelectorAll("#opsi-addon .item-tambahan.aktif").forEach((item) => {
+                totalAddon += parseInt(item.getAttribute("data-harga") || "0", 10);
+            });
+
+            const total = Math.max(35000, hargaDasarProduk + selisihSize + totalAddon);
+            document.getElementById("harga-produk-utama").textContent = formatRupiah(total);
+            return total;
+        }
+
+        // Event klik untuk opsi pilihan tunggal (Size, Tipe, Warna)
+        ["#opsi-size", "#opsi-tipe", "#opsi-warna"].forEach((selector) => {
+            const container = document.querySelector(selector);
+            if (!container) return;
+            container.querySelectorAll(".opsi-item").forEach((item) => {
+                item.addEventListener("click", () => {
+                    container.querySelectorAll(".opsi-item").forEach((el) => el.classList.remove("aktif"));
+                    item.classList.add("aktif");
+                    hitungTotalHarga();
+                });
+            });
+        });
+
+        // Event klik untuk Add-on (bisa multi-select)
+        document.querySelectorAll("#opsi-addon .item-tambahan").forEach((item) => {
+            item.addEventListener("click", () => {
+                item.classList.toggle("aktif");
+                hitungTotalHarga();
+            });
+        });
+
+        // Fungsi saat pengguna klik "CUSTOM & DETAIL" dari kartu katalog
+        function pilihProdukKatalog(tombol) {
+            const kartu = tombol.closest(".kartu-produk");
+            if (!kartu) return;
+
+            const nama = kartu.getAttribute("data-nama");
+            const harga = parseInt(kartu.getAttribute("data-harga") || "85000", 10);
+            const tipe = kartu.getAttribute("data-tipe");
+            const gambar = kartu.getAttribute("data-gambar");
+            const deskripsi = kartu.getAttribute("data-deskripsi");
+
+            hargaDasarProduk = harga;
+            document.getElementById("judul-produk-utama").textContent = nama;
+            document.getElementById("deskripsi-produk-utama").textContent = deskripsi;
+            document.getElementById("foto-produk-utama").src = gambar;
+            document.getElementById("foto-produk-utama").alt = nama;
+
+            // Sesuaikan tipe buket aktif jika cocok
+            if (tipe) {
+                const opsiTipeItems = document.querySelectorAll("#opsi-tipe .opsi-item");
+                opsiTipeItems.forEach((el) => {
+                    if (el.getAttribute("data-tipe") === tipe) {
+                        el.classList.add("aktif");
+                    } else {
+                        el.classList.remove("aktif");
+                    }
+                });
+            }
+
+            // Reset ukuran ke Medium (Standar)
+            const opsiSizeItems = document.querySelectorAll("#opsi-size .opsi-item");
+            opsiSizeItems.forEach((el) => {
+                if (el.getAttribute("data-selisih") === "0" && el.textContent.includes("M")) {
+                    el.classList.add("aktif");
+                } else {
+                    el.classList.remove("aktif");
+                }
+            });
+
+            hitungTotalHarga();
+            document.getElementById("order").scrollIntoView({ behavior: "smooth" });
+        }
+
+        // Fungsi mengirim detail pesanan langsung ke WhatsApp
+        function kirimOrderWhatsApp() {
+            const namaProduk = document.getElementById("judul-produk-utama").textContent.trim();
+            const size = document.querySelector("#opsi-size .opsi-item.aktif")?.getAttribute("data-size") || "Medium (M)";
+            const tipe = document.querySelector("#opsi-tipe .opsi-item.aktif")?.getAttribute("data-tipe") || "Buket Bunga Artificial";
+            const warna = document.querySelector("#opsi-warna .opsi-item.aktif")?.getAttribute("data-warna") || "Cream / Neutral";
+
+            const addons = [];
+            document.querySelectorAll("#opsi-addon .item-tambahan.aktif").forEach((item) => {
+                addons.push(item.getAttribute("data-addon"));
+            });
+            const teksAddon = addons.length > 0 ? addons.join(", ") : "Tidak ada tambahan";
+
+            const catatan = document.getElementById("catatan-order").value.trim() || "-";
+            const totalEstimasi = formatRupiah(hitungTotalHarga());
+
+            const pesan = [
+                "Halo Admin *Ranah Bunga (@ranahbunga)*, saya ingin memesan buket dengan rincian berikut:",
+                "",
+                `• *Model Katalog:* ${namaProduk}`,
+                `• *Tipe Buket:* ${tipe}`,
+                `• *Ukuran (Size):* ${size}`,
+                `• *Warna Wrapping:* ${warna}`,
+                `• *Tambahan (Add-On):* ${teksAddon}`,
+                `• *Estimasi Harga:* ${totalEstimasi}`,
+                `• *Catatan / Ucapan:* ${catatan}`,
+                "",
+                "Mohon info ketersediaan dan konfirmasi pesanannya ya Kak. Terima kasih!"
+            ].join("\n");
+
+            const urlWA = `https://wa.me/${NOMOR_WA}?text=${encodeURIComponent(pesan)}`;
+            window.open(urlWA, "_blank");
+        }
+    </script>
+</body>
+</html>
