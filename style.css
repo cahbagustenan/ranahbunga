@@ -81,14 +81,30 @@ main {
     padding: 60px 40px;
     margin-bottom: 60px;
     border-radius: 14px;
-    border: 1px solid rgba(197, 179, 130, 0.25);
+    border: 1px solid #38352e;
+    background-color: #1a1c19;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+.profil-bisnis::before {
+    content: "";
+    position: absolute;
+    inset: 0;
     background-image: 
         linear-gradient(rgba(26, 28, 25, 0.88), rgba(26, 28, 25, 0.94)),
         url('Img/logo-ranahbunga.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.profil-teks,
+.keunggulan-grid {
+    position: relative;
+    z-index: 1;
 }
 
 .profil-teks {
@@ -710,12 +726,13 @@ footer {
 
     .profil-bisnis {
         padding: 40px 20px;
+    }
+
+    .profil-bisnis::before {
         background-image: 
             linear-gradient(rgba(26, 28, 25, 0.85), rgba(26, 28, 25, 0.92)),
             url('Img/profile-bg-mobile.jpg');
-        background-size: cover;
         background-position: center top;
-        background-repeat: no-repeat;
     }
 
     .keunggulan-grid {
