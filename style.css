@@ -710,6 +710,12 @@ footer {
 
     .profil-bisnis {
         padding: 40px 20px;
+        background-image: 
+            linear-gradient(rgba(26, 28, 25, 0.85), rgba(26, 28, 25, 0.92)),
+            url('Img/profile-bg-mobile.jpg');
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
 
     .keunggulan-grid {
